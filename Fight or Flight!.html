@@ -1,0 +1,36 @@
+﻿<!-- Victor Ortiz & Justin Yim   6/4/19 -->
+<!DOCTYPE html>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fight or Flight! Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="startOfGame();">
+    <h1>
+        Fight or Flight!
+    </h1>
+    <br>
+    <h2>
+        Player: <span id="playerName"></span>
+        Health: <span id="numHealth"></span>
+        Experience Points: <span id="numCurrentXP"></span>
+    </h2>
+    <h3>
+        Equipped Weapon: <span id="currentWeapon"></span>
+        Weapon Damage: <span id="weaponDamage"></span>
+        Treasures: <span id="treasureCount"></span>
+    </h3>
+    <br><br>
+        <!-- start clock ticks button -->
+        <button id="startClockTicks" onclick="startTimer();">Start Game</button> &nbsp
+        <!-- stop clock ticks button -->
+        <button id="stopClockTicks" onclick="stopTimer();">Pause Game</button>
+    <br><br>
+    <p> Created by Victor Ortiz &amp; Justin Yim &nbsp; &copy; 2019</p>
+	<br>
+    <img id="actionView" src="images/startRoad.jpg" alt="empty road"/>
+</body>
+</html>
